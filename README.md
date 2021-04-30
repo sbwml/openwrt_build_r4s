@@ -2,8 +2,6 @@
 
 **本固件基于 [OpenWRT-21.02](https://github.com/openwrt/openwrt) 官方源码编译，默认使用 [Argon 主题](https://github.com/jerrykuku/luci-theme-argon)，固件内置一些常用插件。**
 
-**固件下载（稳定构建）：[https://r4s.cooluc.com](https://r4s.cooluc.com)**
-
 **固件下载（上游跟踪）：[https://github.com/sbwml/openwrt_build_r4s/releases](https://github.com/sbwml/openwrt_build_r4s/releases)**
 
 默认参数

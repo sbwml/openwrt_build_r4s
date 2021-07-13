@@ -53,12 +53,10 @@ jobs:
         rm -rf openwrt
     - name: Compile Openwrt
       id: compileopenwrt
-      continue-on-error: true
       run: |
-        df -h
-        curl -s https://www.cooluc.com/openwrt/build.sh > /home/runner/work/openwrt_build_r4s/bash.sh
+        curl -s https://api.cooluc.com/openwrt/build.sh > /home/runner/work/openwrt_build_r4s/bash.sh
         bash /home/runner/work/openwrt_build_r4s/bash.sh
-        echo $?
+        df -h
     - name: Assemble Artifact
       id: assemble_artifact
       run: |

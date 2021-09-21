@@ -65,17 +65,25 @@ dns:
   parental_cache_size: 1048576
   cache_time: 30
   rewrites:
+  - domain: openwrt.lan
+    answer: 10.0.0.1
   - domain: clock.redhat.com
     answer: cn.ntp.org.cn
   - domain: clock.cuhk.edu.hk
     answer: cn.ntp.org.cn
   - domain: '*.google.com'
     answer: A
-  - domain: '*.google.com.cn'
-    answer: A
   - domain: '*.google.com.hk'
     answer: A
+  - domain: '*.google.com.tw'
+    answer: A
+  - domain: '*.google.com.cn'
+    answer: A
   - domain: '*.google.cn'
+    answer: A
+  - domain: '*.googlevideo.com'
+    answer: A
+  - domain: '*.youtube.com'
     answer: A
   blocked_services: []
   local_domain_name: lan
